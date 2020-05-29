@@ -1,0 +1,69 @@
+.form {
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    padding: 10px 0;
+    text-align: left;
+}
+.ui.form .field label {
+    color: #9a383f;
+}
+header {
+    margin-bottom: 20px;
+}
+.field input {
+    background: transparent !important;
+    border: 1px solid #9a383f !important;
+    color: white !important;
+    height: 25px;
+    margin: 10px 0px;
+    height: 30px;
+}
+.show h1 {
+    text-align: center;
+    padding: 15px 0px;
+}
+.container.card{
+    height: 500px;
+}
+.streamForm label {
+    /* margin-right: 15px; */
+    width: 125px;
+    font-size: 14px;
+}
+button.ui.button.primary {
+    background: #ab3546 !important;
+    width: 300px;
+    margin: auto;
+}
+.streamForm.container button {
+    background: #b23737 !important;
+    margin: 10px 0px;
+}
+
+.form button {
+    background-color: #9b383f !important;
+}
+.streamtab{
+    padding: 30px 0px
+}
+.streamtab h3, .streamtab h2 {
+    text-align: center;
+}
+.five.wide.column {
+    border: 1px solid #cccccc;
+    margin: 5px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.five.wide.column i {
+    color: #9b383f;
+}
+h6.MuiTypography-root.MuiTypography-subtitle1.MuiTypography-colorTextSecondary {
+    color: white !important;
+}
+
+.makeStyles-controls-174 button {
+    color: white !important;
+}

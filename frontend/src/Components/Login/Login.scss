@@ -1,0 +1,45 @@
+.MuiPaper-root{
+  background-image: url('../../img/bodybg.png') !important; 
+}
+.MuiAvatar-root.MuiAvatar-circle.MuiAvatar-colorDefault {
+  background: transparent;
+  color: transparent;
+  width: auto;
+  height: 100%;
+  padding: 30px;
+}
+::placeholder {
+  color: white !important;
+}
+.MuiButton-containedPrimary {
+  background: #e2232e !important;
+}
+.MuiInputLabel-outlined {
+  color: white !important;
+}
+.MuiFormControl-fullWidth:focus{
+  outline-color:#e2232e !important;
+}
+:focus{
+  outline-color:#e2232e !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: #e2232e !important;
+}
+.makeStyles-paper-3 span, .makeStyles-paper-3 a, .makeStyles-paper-3 p {
+  color: white;
+}
+a:hover{
+  color: #e2232e !important;
+}
+.makeStyles-paper-1{
+  margin-top: 0 !important;
+}
+.MuiInputBase-root input{
+  border: 1px solid #cccccc;
+}
+.msg {
+  color: white;
+  border: 1px solid #e2232e;
+  padding: 15px;
+}

@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+.btn_1{
+    background: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-family: "Aclonica", sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/**************** banner part css start ****************/
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+.banner_part {
+    position: relative;
+    background-image: url('../../img/banner_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  
+  /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+  .banner_part .banner_text {
+    display: table;
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .banner_text a.btn_1:hover{
+    background-color: white;
+  }
+  .banner_text a.btn_1 {
+    background: #b20507;
+    text-align: center;
+    /* display: flex; */
+    float: left;
+    width: 150px;
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+  /* line 12, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+  .banner_part .banner_text .banner_text_iner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text {
+      height: 650px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text {
+      height: 650px;
+    }
+  }
+  
+  /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+  .banner_part .banner_text h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 32px;
+    line-height: 70px;
+    color: #fff;
+  }
+  .banner_part .row.align-items-center.justify-content-between{
+    position: relative;
+    z-index: 0;
+  }
+  @media (max-width: 576px) {
+    /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+      font-size: 25px;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+      font-size: 30px;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+  }
+  
+  /* line 49, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+  .banner_part .banner_text h1 span {
+    color: #ff0000;
+  }
+  
+  /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+  .banner_part .banner_text p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-bottom: 45px;
+    padding-right: 140px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text p {
+      padding-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text p {
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    /* line 68, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
+    .banner_part .banner_text .btn_1 {
+      margin-top: 30px;
+    }
+  }
+
+  /* -------------------------------*/
+  .section_tittle h2 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 28px;
+}
+.clash-card__unit-description {
+  color: black;
+}
+.btn_1 {
+    display: inline-block;
+    padding-top: 30px;
+    border-radius: 0;
+    font-size: 15px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 500;
+    color: #fff !important;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    background-size: 200% auto;
+    border: 1px solid transparent;
+}
+@media only screen and (max-width: 3640px) and (min-width: 1200px){
+
+.container {
+    max-width: 1200px;
+}
+}
+/************use_sasu css start***************/
+/* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+.pricing_part {
+    position: relative;
+    z-index: 1;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+  }
+  .pricing_part h2{
+    padding-bottom: 25px;
+  }
+  .pricing_part .five.wide.column {
+    padding: 0 !important;
+}
+  .padding_top {
+    padding-top: 140px;
+}
+.MuiCard-root {
+  overflow: hidden;
+  justify-content: space-between;
+}
+  /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part {
+    text-align: center;
+    padding: 35px 35px 60px;
+    background-color: #0b111f;
+    position: relative;
+    z-index: 1;
+    background-image: url('../../img/pricing_bg.png');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part {
+      padding: 20px 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part {
+      padding: 20px;
+    }
+  }
+  
+  /* line 26, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part img {
+    margin-bottom: 18px;
+    height: 65px;
+  }
+  
+  /* line 30, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part p {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 30, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part p {
+      margin-bottom: 25px;
+    }
+  }
+  
+  /* line 46, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part h3 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  /* line 49, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part h3 span {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 400;
+  }
+  
+  /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part .btn_2 {
+    padding: 18.5px 42px;
+    background-color: transparent;
+    color: #fff !important;
+    border: 2px solid;
+    border-image: linear-gradient(to left, #ff0000 0%, #c6019a 100%);
+    border-image-slice: 1;
+  }
+  
+  /* line 64, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part .btn_2:hover {
+    background: linear-gradient(to left, #ff0000 0%, #c6019a 100%);
+  }
+  
+  @media (max-width: 991px) {
+    /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part .btn_2 {
+      padding: 10px 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 56, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part .btn_2 {
+      padding: 10px 12px;
+    }
+  }
+  
+  /* line 77, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part ul {
+    margin: 16px 0 22px;
+    padding-top: 37px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 77, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part ul {
+      margin: 16px 0;
+      padding-top: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 77, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+    .pricing_part .single_pricing_part ul {
+      margin: 20px 0;
+      padding-top: 0;
+    }
+  }
+  
+  /* line 88, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part ul li {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-transform: capitalize;
+    padding: 15px 0;
+    border-bottom: 1px dotted;
+  }
+  
+  /* line 94, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .pricing_part .single_pricing_part ul li:last-child {
+    border: 0px solid transparent;
+  }
+  
+  /* line 103, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
+  .single_page_pricing .left_shape_1 {
+    display: none;
+  }
+  .modal-title.h4 {
+  
+    color: black;
+}
+.modal-header{
+  text-align: center;
+}
+a.btn_1{
+  cursor: pointer;
+}

@@ -1,0 +1,116 @@
+.horror-title {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    font-family: 'Denk One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4em;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    margin-left: -180px;
+    -webkit-animation: horror-animation 5s infinite;
+    -moz-animation: horror-animation 5s infinite;
+    -o-animation: horror-animation 5s infinite;
+    animation: horror-animation 5s infinite;
+    animation-name:changecolor;
+    animation-duration: 1s infinite;
+   
+  }
+  .horror-title:hover{
+    color: rgb(124, 10, 10);
+  }
+  @keyframes changecolor
+  {
+    from{ color:rgba(0,0,0,0.5);}
+    to{ color:rgb(124, 10, 10);}
+  }
+
+
+
+
+  .ReactModal__Contet button, .ReactModal__Content--after-open button
+  {
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    border-radius:10px;
+    border-color: red;
+  }
+  .horror-title-modal
+  {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    font-family: 'Denk One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4em;
+    text-align: center;
+    position: center;
+    
+    top: 10px!important;
+   
+    -webkit-animation: horror-animation 5s infinite;
+    -moz-animation: horror-animation 5s infinite;
+    -o-animation: horror-animation 5s infinite;
+    animation: horror-animation 5s infinite;
+    animation-name:changecolor;
+    animation-duration: 1s infinite;
+  }
+  .add-movie
+  {
+    display: flex;
+    flex-direction: column;
+    border:  1px solid rgba(0,0,0,0.5);
+    width: 280px;
+    height: 400px ;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 50px;
+  
+  }
+  .addimage
+  {
+    width: 280px;
+    height: 280px;
+  }
+  .addtitle
+  {
+    text-align: center;
+    color: rgb(124, 10, 10)!important;
+  }
+  .react-spinner
+  {
+    text-align: center;
+    margin-top:10%;
+  }
+  .modal-flex
+  {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      
+
+  }
+  .modal-buttons
+  {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+  }
+  .modal-buttons button
+  {
+      width: 500px;
+      height:50px;
+      color: white;
+      margin:10px
+      
+  }
+  .modal-buttons button:hover
+  {
+    
+     color :red
+  }
